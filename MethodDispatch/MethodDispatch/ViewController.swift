@@ -11,9 +11,16 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        // Static dispatch examples
+        staticDispatch()
     }
 
+    func staticDispatch() {
+        let staticExamples = StaticExamplesClass()
+        staticExamples.exampleWithStruct()
+        staticExamples.exampleWithExtensionStruct()
+        staticExamples.exampleWithFinalClass()
+    }
 
 }
 
