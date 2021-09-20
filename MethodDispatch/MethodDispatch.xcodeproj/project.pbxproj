@@ -16,6 +16,10 @@
 		EA1D87A926F8E77400E1C1FE /* SomeStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1D87A826F8E77400E1C1FE /* SomeStruct.swift */; };
 		EA1D87AB26F8E87600E1C1FE /* StaticExamplesClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1D87AA26F8E87600E1C1FE /* StaticExamplesClass.swift */; };
 		EA1D87AD26F8E89F00E1C1FE /* SomeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1D87AC26F8E89F00E1C1FE /* SomeClass.swift */; };
+		EA1D87B026F8EEC700E1C1FE /* SomeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1D87AF26F8EEC700E1C1FE /* SomeProtocol.swift */; };
+		EA1D87B226F8EF0A00E1C1FE /* SomeClassTableDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1D87B126F8EF0A00E1C1FE /* SomeClassTableDispatch.swift */; };
+		EA1D87B426F8EF5F00E1C1FE /* TableExamplesClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1D87B326F8EF5F00E1C1FE /* TableExamplesClass.swift */; };
+		EA1D87B626F8F10700E1C1FE /* CustomNSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1D87B526F8F10700E1C1FE /* CustomNSObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		EA1D87A826F8E77400E1C1FE /* SomeStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeStruct.swift; sourceTree = "<group>"; };
 		EA1D87AA26F8E87600E1C1FE /* StaticExamplesClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticExamplesClass.swift; sourceTree = "<group>"; };
 		EA1D87AC26F8E89F00E1C1FE /* SomeClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeClass.swift; sourceTree = "<group>"; };
+		EA1D87AF26F8EEC700E1C1FE /* SomeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeProtocol.swift; sourceTree = "<group>"; };
+		EA1D87B126F8EF0A00E1C1FE /* SomeClassTableDispatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeClassTableDispatch.swift; sourceTree = "<group>"; };
+		EA1D87B326F8EF5F00E1C1FE /* TableExamplesClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableExamplesClass.swift; sourceTree = "<group>"; };
+		EA1D87B526F8F10700E1C1FE /* CustomNSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNSObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,7 @@
 		EA1D879226F8E5B900E1C1FE /* MethodDispatch */ = {
 			isa = PBXGroup;
 			children = (
+				EA1D87AE26F8EDD400E1C1FE /* TableDispatch */,
 				EA1D87A726F8E74A00E1C1FE /* StaticDispatch */,
 				EA1D879326F8E5B900E1C1FE /* AppDelegate.swift */,
 				EA1D879526F8E5B900E1C1FE /* SceneDelegate.swift */,
@@ -82,6 +91,17 @@
 				EA1D87AC26F8E89F00E1C1FE /* SomeClass.swift */,
 			);
 			path = StaticDispatch;
+			sourceTree = "<group>";
+		};
+		EA1D87AE26F8EDD400E1C1FE /* TableDispatch */ = {
+			isa = PBXGroup;
+			children = (
+				EA1D87B326F8EF5F00E1C1FE /* TableExamplesClass.swift */,
+				EA1D87AF26F8EEC700E1C1FE /* SomeProtocol.swift */,
+				EA1D87B126F8EF0A00E1C1FE /* SomeClassTableDispatch.swift */,
+				EA1D87B526F8F10700E1C1FE /* CustomNSObject.swift */,
+			);
+			path = TableDispatch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,8 +176,12 @@
 			files = (
 				EA1D87AB26F8E87600E1C1FE /* StaticExamplesClass.swift in Sources */,
 				EA1D87A926F8E77400E1C1FE /* SomeStruct.swift in Sources */,
+				EA1D87B626F8F10700E1C1FE /* CustomNSObject.swift in Sources */,
 				EA1D87AD26F8E89F00E1C1FE /* SomeClass.swift in Sources */,
+				EA1D87B426F8EF5F00E1C1FE /* TableExamplesClass.swift in Sources */,
 				EA1D879826F8E5B900E1C1FE /* ViewController.swift in Sources */,
+				EA1D87B226F8EF0A00E1C1FE /* SomeClassTableDispatch.swift in Sources */,
+				EA1D87B026F8EEC700E1C1FE /* SomeProtocol.swift in Sources */,
 				EA1D879426F8E5B900E1C1FE /* AppDelegate.swift in Sources */,
 				EA1D879626F8E5B900E1C1FE /* SceneDelegate.swift in Sources */,
 			);
