@@ -15,6 +15,8 @@ class ViewController: UIViewController {
         staticDispatch()
         // Table dispatch examples
         tableDispatch()
+        // NSObject dispatch
+        allDispatchFromNSObject()
     }
 
     func staticDispatch() {
@@ -31,5 +33,10 @@ class ViewController: UIViewController {
         tableExamplesClass.exampleWithNSObjectSubclass()
     }
 
+    func allDispatchFromNSObject() {
+        let myNSObjectExamplesClass = NSObjectExamplesClass()
+        myNSObjectExamplesClass.exampleChildOfNSObjectSubclass()
+        myNSObjectExamplesClass.exampleWithNSObjectSubclass()
+    }
 }
 
