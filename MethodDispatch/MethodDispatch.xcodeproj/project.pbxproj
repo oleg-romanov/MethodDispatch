@@ -13,6 +13,15 @@
 		EA1D879B26F8E5B900E1C1FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1D879926F8E5B900E1C1FE /* Main.storyboard */; };
 		EA1D879D26F8E5BE00E1C1FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA1D879C26F8E5BE00E1C1FE /* Assets.xcassets */; };
 		EA1D87A026F8E5BE00E1C1FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1D879E26F8E5BE00E1C1FE /* LaunchScreen.storyboard */; };
+		EA1D87A926F8E77400E1C1FE /* SomeStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1D87A826F8E77400E1C1FE /* SomeStruct.swift */; };
+		EA1D87AB26F8E87600E1C1FE /* StaticExamplesClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1D87AA26F8E87600E1C1FE /* StaticExamplesClass.swift */; };
+		EA1D87AD26F8E89F00E1C1FE /* SomeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1D87AC26F8E89F00E1C1FE /* SomeClass.swift */; };
+		EA1D87B026F8EEC700E1C1FE /* SomeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1D87AF26F8EEC700E1C1FE /* SomeProtocol.swift */; };
+		EA1D87B226F8EF0A00E1C1FE /* SomeClassTableDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1D87B126F8EF0A00E1C1FE /* SomeClassTableDispatch.swift */; };
+		EA1D87B426F8EF5F00E1C1FE /* TableExamplesClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1D87B326F8EF5F00E1C1FE /* TableExamplesClass.swift */; };
+		EA1D87B626F8F10700E1C1FE /* CustomNSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1D87B526F8F10700E1C1FE /* CustomNSObject.swift */; };
+		EA1D87B926F8F2A300E1C1FE /* NSObjectExamplesClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1D87B826F8F2A300E1C1FE /* NSObjectExamplesClass.swift */; };
+		EA1D87BB26F8F2F600E1C1FE /* NSObjectSubclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1D87BA26F8F2F600E1C1FE /* NSObjectSubclass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		EA1D879C26F8E5BE00E1C1FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA1D879F26F8E5BE00E1C1FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA1D87A126F8E5BE00E1C1FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA1D87A826F8E77400E1C1FE /* SomeStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeStruct.swift; sourceTree = "<group>"; };
+		EA1D87AA26F8E87600E1C1FE /* StaticExamplesClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticExamplesClass.swift; sourceTree = "<group>"; };
+		EA1D87AC26F8E89F00E1C1FE /* SomeClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeClass.swift; sourceTree = "<group>"; };
+		EA1D87AF26F8EEC700E1C1FE /* SomeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeProtocol.swift; sourceTree = "<group>"; };
+		EA1D87B126F8EF0A00E1C1FE /* SomeClassTableDispatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeClassTableDispatch.swift; sourceTree = "<group>"; };
+		EA1D87B326F8EF5F00E1C1FE /* TableExamplesClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableExamplesClass.swift; sourceTree = "<group>"; };
+		EA1D87B526F8F10700E1C1FE /* CustomNSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNSObject.swift; sourceTree = "<group>"; };
+		EA1D87B826F8F2A300E1C1FE /* NSObjectExamplesClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectExamplesClass.swift; sourceTree = "<group>"; };
+		EA1D87BA26F8F2F600E1C1FE /* NSObjectSubclass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectSubclass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,9 @@
 		EA1D879226F8E5B900E1C1FE /* MethodDispatch */ = {
 			isa = PBXGroup;
 			children = (
+				EA1D87B726F8F28900E1C1FE /* MessageDispatch */,
+				EA1D87AE26F8EDD400E1C1FE /* TableDispatch */,
+				EA1D87A726F8E74A00E1C1FE /* StaticDispatch */,
 				EA1D879326F8E5B900E1C1FE /* AppDelegate.swift */,
 				EA1D879526F8E5B900E1C1FE /* SceneDelegate.swift */,
 				EA1D879726F8E5B900E1C1FE /* ViewController.swift */,
@@ -65,6 +86,36 @@
 				EA1D87A126F8E5BE00E1C1FE /* Info.plist */,
 			);
 			path = MethodDispatch;
+			sourceTree = "<group>";
+		};
+		EA1D87A726F8E74A00E1C1FE /* StaticDispatch */ = {
+			isa = PBXGroup;
+			children = (
+				EA1D87AA26F8E87600E1C1FE /* StaticExamplesClass.swift */,
+				EA1D87A826F8E77400E1C1FE /* SomeStruct.swift */,
+				EA1D87AC26F8E89F00E1C1FE /* SomeClass.swift */,
+			);
+			path = StaticDispatch;
+			sourceTree = "<group>";
+		};
+		EA1D87AE26F8EDD400E1C1FE /* TableDispatch */ = {
+			isa = PBXGroup;
+			children = (
+				EA1D87B326F8EF5F00E1C1FE /* TableExamplesClass.swift */,
+				EA1D87AF26F8EEC700E1C1FE /* SomeProtocol.swift */,
+				EA1D87B126F8EF0A00E1C1FE /* SomeClassTableDispatch.swift */,
+				EA1D87B526F8F10700E1C1FE /* CustomNSObject.swift */,
+			);
+			path = TableDispatch;
+			sourceTree = "<group>";
+		};
+		EA1D87B726F8F28900E1C1FE /* MessageDispatch */ = {
+			isa = PBXGroup;
+			children = (
+				EA1D87B826F8F2A300E1C1FE /* NSObjectExamplesClass.swift */,
+				EA1D87BA26F8F2F600E1C1FE /* NSObjectSubclass.swift */,
+			);
+			path = MessageDispatch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +188,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA1D87AB26F8E87600E1C1FE /* StaticExamplesClass.swift in Sources */,
+				EA1D87B926F8F2A300E1C1FE /* NSObjectExamplesClass.swift in Sources */,
+				EA1D87A926F8E77400E1C1FE /* SomeStruct.swift in Sources */,
+				EA1D87B626F8F10700E1C1FE /* CustomNSObject.swift in Sources */,
+				EA1D87AD26F8E89F00E1C1FE /* SomeClass.swift in Sources */,
+				EA1D87BB26F8F2F600E1C1FE /* NSObjectSubclass.swift in Sources */,
+				EA1D87B426F8EF5F00E1C1FE /* TableExamplesClass.swift in Sources */,
 				EA1D879826F8E5B900E1C1FE /* ViewController.swift in Sources */,
+				EA1D87B226F8EF0A00E1C1FE /* SomeClassTableDispatch.swift in Sources */,
+				EA1D87B026F8EEC700E1C1FE /* SomeProtocol.swift in Sources */,
 				EA1D879426F8E5B900E1C1FE /* AppDelegate.swift in Sources */,
 				EA1D879626F8E5B900E1C1FE /* SceneDelegate.swift in Sources */,
 			);

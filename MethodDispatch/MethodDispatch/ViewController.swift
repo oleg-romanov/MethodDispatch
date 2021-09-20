@@ -11,9 +11,32 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        // Static dispatch examples
+        staticDispatch()
+        // Table dispatch examples
+        tableDispatch()
+        // NSObject dispatch
+        allDispatchFromNSObject()
     }
 
+    func staticDispatch() {
+        let staticExamples = StaticExamplesClass()
+        staticExamples.exampleWithStruct()
+        staticExamples.exampleWithExtensionStruct()
+        staticExamples.exampleWithFinalClass()
+    }
 
+    func tableDispatch() {
+        let tableExamplesClass = TableExamplesClass()
+        tableExamplesClass.exampleWithProtocolImpl()
+        tableExamplesClass.exampleWithClass()
+        tableExamplesClass.exampleWithNSObjectSubclass()
+    }
+
+    func allDispatchFromNSObject() {
+        let myNSObjectExamplesClass = NSObjectExamplesClass()
+        myNSObjectExamplesClass.exampleChildOfNSObjectSubclass()
+        myNSObjectExamplesClass.exampleWithNSObjectSubclass()
+    }
 }
 
