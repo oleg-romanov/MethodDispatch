@@ -13,6 +13,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Static dispatch examples
         staticDispatch()
+        // Table dispatch examples
+        tableDispatch()
     }
 
     func staticDispatch() {
@@ -20,6 +22,13 @@ class ViewController: UIViewController {
         staticExamples.exampleWithStruct()
         staticExamples.exampleWithExtensionStruct()
         staticExamples.exampleWithFinalClass()
+    }
+
+    func tableDispatch() {
+        let tableExamplesClass = TableExamplesClass()
+        tableExamplesClass.exampleWithProtocolImpl()
+        tableExamplesClass.exampleWithClass()
+        tableExamplesClass.exampleWithNSObjectSubclass()
     }
 
 }
